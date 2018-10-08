@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "strict": true,
+        "module": "commonjs",
+        "watch": true,
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/@types/*",
+                "src/types/*"
+            ]
+        }
+
+    },
+    "include": [
+        "src/**/*",
+    ],
+    "exclude": [
+        ".vscode"
+    ]
+}
